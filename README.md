@@ -9,7 +9,7 @@ Here is an implementation of the famous GCM (even though one might argue this is
 The model output the probability of a class $R$ understood as 
 
 $$
-P(R|y) = \frac{\Beta_R \sum_{x \in R} s(x,y)}{\sum_r \Beta_r \sum_{x \in r} s(x,y)}
+P(R|y) = \frac{\beta_R \sum_{x \in R} s(x,y)}{\sum_r \beta_r \sum_{x \in r} s(x,y)}
 $$
 
 Where $R$ and $r$ are classes in our dataset. $s_R$ is given by 
